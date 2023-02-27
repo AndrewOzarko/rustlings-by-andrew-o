@@ -10,7 +10,15 @@
 // Write a function that calculates the price of an order of apples given
 // the quantity bought. No hints this time!
 
-// I AM NOT DONE
+fn calculate_price_of_apples(count_of_apples: i32) -> i32 {
+    if count_of_apples == 41 || count_of_apples == 65 {
+        return count_of_apples * 1;
+    } else if count_of_apples > 34 {
+        return count_of_apples * 2;
+    } else {
+        return count_of_apples * 1;
+    }
+}
 
 // Put your function here!
 // fn calculate_price_of_apples {
